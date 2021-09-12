@@ -1,12 +1,8 @@
 import './App.css';
 import React, { Component } from 'react';
-import Intro from '../intro';
-import Series from '../../containers/series';
-
+import Main from '../Main';
 
 class App extends Component {
-
-
 
   render(){
     return (
@@ -15,11 +11,7 @@ class App extends Component {
           <h1>
             TV series List
           </h1>
-
-          <Intro message="Here you can find series" />
-          
-          <Series />
-
+          <Main />
         </header>
       </div>
     );
